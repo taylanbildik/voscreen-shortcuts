@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sortcuts for Voscreen</title>
+    <style>
+        kbd {
+            font-size: 2em;
+            box-shadow: 1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            margin: 20px 10px;
+            padding: 10px 20px;
+        }
+        
+        .box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        
+        body {
+            background-color: #fff;
+            color: #000;
+        }
+        
+        
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #222;
+                color: #fff;
+            }
+            
+            kbd {
+                box-shadow: 1px 0 1px 0 #333, 0 2px 0 2px #555, 0 2px 0 3px #ccc;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Shortcuts</h1>
+        <p>Next Video</p>
+        <kbd>↑</kbd>
+        <div class="box">
+            <span>Left Box</span>
+            <kbd>←</kbd>
+            <kbd>→</kbd>
+            <span>Right Box</span>
+        </div>
+        <kbd>↓</kbd>
+        <p>Replay Video</p>
+		<footer>
+	<a href="https://github.com/taylanbildik/voscreen-shortcuts" target="_blank">About</a>
+  <p>Shortcuts for Voscreen | Version 0.1</p>
+</footer>
+    </center>
+</body>
+</html>

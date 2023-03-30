@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Voscreen Shortcuts",
+  "version": "0.1",
+  "description": "Shortcuts for Voscreen",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.voscreen.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "title": "Voscreen Shortcuts",
+    "default_popup": "popup.html",
+    "icon": "icon16.png"
+  }
+}
