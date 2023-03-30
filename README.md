@@ -21,7 +21,7 @@ The extension adds the following keyboard shortcuts to Voscreen:
 - <kbd>←</kbd>: Click left box
 - <kbd>→</kbd>: Click right box
 
-"The usage is demonstrated in the GIF image."
+The usage is demonstrated in the GIF image.
 ![Extension usage guide](./readme/usage.gif)
 
 ## License
