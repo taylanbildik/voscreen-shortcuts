@@ -6,6 +6,10 @@ This is a browser extension that adds keyboard shortcuts to Voscreen. With this 
 
 ## Installation
 
+### Install via Web Store
+[Chrome Web Store Link](https://chromewebstore.google.com/detail/hljbmfmjbgmbiijleifageapkipnlkma)
+
+### Manual Installation
 More tools > Extensions > Developer Mode(On) > Load unpacked > Find extension folder > Done !
 
 You can download the file from <a href="https://github.com/taylanbildik/voscreen-shortcuts/releases/download/chrome-extension/Voscreen.Shortcuts.zip">here</a> and follow the installation by looking at the GIF image."
